@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- start button -->
+    
+    <section class="startsec">
+        <div class="start-btn">
+            <button class="start btun">Start Quiz</button>
+        </div>
+    </section>
+    <!-- content section -->
+    <section class="content" id="content">
+        <!-- timer -->
+        <div class="timerdiv">
+            <span class="timer"></span> 
+        </div>
+        <div class="qa-group">
+            <div class="question-num"><h1>Question <span class="qnum"></span></h1></div>
+            <div class="question" id="question">
+               
+            </div>
+            
+            <div class="option-group">
+                 <!-- <div class="option optionc" id="optiongr">
+                    <input type="radio" name = "option" class="op" id="option1">
+                    <label for="option1" id="option1l"></label>
+                 </div> -->
+                 <!-- <div class="option " id="optiongr">
+                    <input type="radio" name = "option" class="op" id="option2" >
+                    <label for="option2" id="option2l"></label>
+                 </div>
+                 <div class="option op" id="optiongr">
+                    <input type="radio" name = "option" class="op" id="option3">
+                    <label for="option3" id="option3l"></label>
+                 </div>
+                 <div class="option op" id="optiongr">
+                    <input type="radio" name = "option" class="op" id="option4" >
+                    <label for="option4" id="option4l"></label>
+                 </div> -->
+            </div>
+        </div>
+        <div class="btn-grp">
+            <button class="prev btun">Prev</button>
+            <!-- <button class="submitbtn btun" onclick="submit()">Submit</button> -->
+            <button class="nextbtn btun" onclick="next()">Next</button>
+        </div>
+    </section>
+    <!-- btn section -->
+
+    <!-- submit section -->
+    <section class="submit">
+        <div class="submitbox">
+            Thankyou for the test, response is recorded.
+            Your score is <span class="score"></span>.
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
